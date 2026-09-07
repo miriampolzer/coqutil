@@ -5,7 +5,7 @@
 SRC_DIR := src
 TEST_DIR := test
 
-COQC ?= "$(COQBIN)rocq"
+COQC ?= "$(COQBIN)rocq" compile
 
 SRC_VS := $(shell find $(SRC_DIR) -type f -name '*.v')
 TEST_VS := $(shell find $(TEST_DIR) -type f -name '*.v')
